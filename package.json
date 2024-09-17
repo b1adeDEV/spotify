@@ -1,0 +1,17 @@
+{
+    "name": "webinar_42",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "npm i & ultra -r npm i & ultra -r dev",
+      "install": "ultra -r npm i"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "ultra-runner": "^3.10.5"
+    }
+  }
+  

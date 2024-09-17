@@ -1,0 +1,33 @@
+.track {
+    margin-top: 10px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trackTitle {
+    display:flex;
+    align-items: center;
+    width:380px;
+    margin-left: 10px;
+    p {
+        width:30px;
+    }
+    h2 {
+        margin-right: 70px;
+        width:200px;
+        font-size: 17px;
+    }
+    justify-content: space-evenly;
+}
+
+.trackDur {
+    margin-right: 20px;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+.track:hover {
+    background-color: #2a2a2a;
+}

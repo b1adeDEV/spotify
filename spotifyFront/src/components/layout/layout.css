@@ -1,0 +1,183 @@
+.layout {
+    position: absolute;
+    width: 300px;
+    margin-left: 5px;
+    div {
+        border-radius: 10px;
+        padding: 10px;
+        background: #121212;
+    }
+}
+
+.layoutMain {
+    main {
+        scale: 0.8;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    div {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        width: fit-content;
+        opacity: 0.5;
+        svg {
+            margin-right: 20px;
+        }
+    }
+    div:nth-child(3) {
+        svg {
+            margin-right: 22px;
+        }
+    }
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 0 20px;
+        svg {
+            scale: 1.8;
+        }
+    }
+    h1 {
+        margin: 0;
+    }
+}
+
+.layoutMedia {
+    margin-top: 20px;
+    height: 30vh;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.8;
+    height: 200px;
+    font-size: 11px;
+    a {
+        text-decoration: none;
+    }
+}
+.media {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+    div {
+        margin-right: 10px;
+        padding: 0;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 15px;
+        margin-right: 50px;
+    }
+    button {
+        cursor: pointer;
+        font-size: 25px;
+        background: none;
+        border: none;
+    }
+}
+
+
+.media:hover {
+    opacity: 2;
+}
+.layoutMain>div:hover{
+    opacity: 1;
+}
+
+.HeaderLayout {
+    margin-top: 10px;
+    margin-left: 317px;
+    background-color: #101010;
+    width: 1400px;
+    height: 64px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buttonGroup {
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: #050505;
+    border-radius: 50%;
+    cursor: pointer;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.btnGroupLayout {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.singInRegGroup {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+}
+.btnSignIn {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: black;
+    padding: 16px 32px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btnRegister {
+    cursor: pointer;
+    background: none;
+    border:none;
+    font-weight: 600;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.btnRegister:hover {
+    scale: 1.05;
+    opacity: 0.9;
+
+}
+
+.btnSignIn:hover {
+    scale: 1.05;
+    opacity: 0.9;
+}
+
+.adminGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+.btnAdminGroup {
+    display: flex;
+    width:700px;
+    justify-content: space-between;
+}

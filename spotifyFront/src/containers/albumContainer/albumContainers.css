@@ -1,0 +1,14 @@
+.albumContainer {
+    margin: 0 auto;
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+}
+.container {
+    padding: 10px;
+    background: rgb(14,14,14);
+    background: linear-gradient(0deg, rgba(14,14,14,1) 0%, rgba(40,40,40,1) 100%, rgba(31,31,31,1) 100%);
+    width: 1420px;
+    margin-left:317px;
+    height: fit-content;
+}

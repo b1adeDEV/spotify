@@ -1,0 +1,40 @@
+:root {
+    background-color: black;
+    --encore-body-font-stack: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+}
+* {
+    color: white;
+    font-family: var(--encore-body-font-stack), serif;
+}
+.CustomAlert {
+    position: absolute;
+    left: 43%;
+    z-index: 5;
+    opacity: 1;
+    width: 300px;
+    opacity: 1;
+    transform: translateY(20px);
+    transition: 1s ;
+}
+
+
+.none {
+    transform: translateY(-20px);
+    transition: 1s;
+    left: 43%;
+    width: 300px;
+    z-index: 5;
+    opacity: 0;
+    position: absolute;
+}
+
+.ant-select-item-option-content {
+    color: #121212;
+}
+
+.ant-select-selection-item {
+    color: white;
+}
+.ant-select-selector {
+    background-color: #121212 !important
+}

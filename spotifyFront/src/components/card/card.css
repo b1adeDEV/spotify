@@ -1,0 +1,28 @@
+.card {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    flex-direction: column;
+    img {
+        margin: 10px auto 0 auto;
+        border-radius: 50%;
+        width: 210px;
+        height: 210px;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: var(--encore-body-font-stack), serif;
+        color: white;
+    }
+    h5 {
+        margin: 0;
+        opacity: 0.5;
+    }
+}
+.card:hover {
+    background-color: #1f1f1f;
+}

@@ -1,0 +1,31 @@
+.cardAlbum {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    flex-direction: column;
+    img {
+        margin: 20px auto 0 auto;
+        border-radius: 15px;
+        width: 170px;
+        height: 170px;
+    }
+    h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: var(--encore-body-font-stack), serif;
+        color: white;
+        margin: 5px 10px;
+    }
+
+    p {
+        margin: 5px 10px;
+        font-size: 0.8rem;
+        opacity: 0.5;
+    }
+}
+.cardAlbum:hover {
+    background-color: #1f1f1f;
+}
